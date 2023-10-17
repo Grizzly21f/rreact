@@ -1,11 +1,14 @@
-import React from 'react';
+import ComponentsUsers from "./components/users/ComponentsUsers";
 
-const App = () => {
-  return (
-      <div>
-        app
-      </div>
-  );
-};
+
+function App() {
+    return (
+        <div>
+            {
+            <ComponentsUsers/>
+            }
+        </div>
+    );
+}
 
 export default App;
