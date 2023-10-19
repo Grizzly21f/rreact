@@ -1,12 +1,14 @@
-import ComponentsUsers from "./components/users/ComponentsUsers";
+
+import SpaceXLaunches from "./components/LaunchesContainer/Launches/Launches";
+
 
 
 function App() {
+
+
     return (
         <div>
-            {
-            <ComponentsUsers/>
-            }
+    <SpaceXLaunches/>
         </div>
     );
 }
