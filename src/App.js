@@ -1,12 +1,10 @@
-import ComponentsUsers from "./components/users/ComponentsUsers";
-
+import React from 'react';
+import { CarsContainer } from './components/CarsContainer/CarsContainer';
 
 function App() {
     return (
-        <div>
-            {
-            <ComponentsUsers/>
-            }
+        <div className="App">
+            <CarsContainer />
         </div>
     );
 }
