@@ -1,11 +1,11 @@
-import ComponentsUsers from "./components/users/ComponentsUsers";
+import UsersContainer from "./components/UsersContainer/UsersContainer";
 
 
 function App() {
     return (
         <div>
             {
-            <ComponentsUsers/>
+        <UsersContainer/>
             }
         </div>
     );
