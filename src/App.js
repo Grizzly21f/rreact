@@ -1,9 +1,10 @@
+import React from 'react';
+import { CarsContainer } from './components/CarsContainer/CarsContainer';
+
 function App() {
-
-
     return (
-        <div>
-
+        <div className="App">
+            <CarsContainer />
         </div>
     );
 }
