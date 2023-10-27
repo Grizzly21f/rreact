@@ -1,14 +1,10 @@
-import ComponentsUsers from "./components/users/ComponentsUsers";
-
 
 function App() {
-    return (
-        <div>
-            {
-            <ComponentsUsers/>
-            }
-        </div>
-    );
+  return (
+    <div>
+
+    </div>
+  );
 }
 
 export default App;
