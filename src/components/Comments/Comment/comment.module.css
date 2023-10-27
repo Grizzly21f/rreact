@@ -1,0 +1,7 @@
+.commentWrapper {
+    border: 1px dashed #282c34;
+    margin: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 1.2em;
+}
