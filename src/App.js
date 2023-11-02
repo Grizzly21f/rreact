@@ -1,13 +1,18 @@
-import ComponentsUsers from "./components/users/ComponentsUsers";
-
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Episodes from './components/Episodes';
+import Characters from './components/Characters';
 
 function App() {
     return (
-        <div>
-            {
-            <ComponentsUsers/>
-            }
-        </div>
+        <Router>
+            <div className="App">
+                <Routes>
+                    <Route path="/" element={<Episodes />} />
+                    <Route path="/characters/:episodeId" element={<Characters />} />
+                </Routes>
+            </div>
+        </Router>
     );
 }
 
