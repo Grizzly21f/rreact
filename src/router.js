@@ -1,7 +1,17 @@
-import {createBrowserRouter} from "react-router-dom";
+import {createBrowserRouter, Navigate} from "react-router-dom";
 
-const  router = createBrowserRouter([
+import {MainLayout} from "./layouts";
+import {CarsPage} from "./pages";
 
+const router = createBrowserRouter([
+    {
+        path: '', element: <MainLayout/>, children: [
+            {index: true, element: <Navigate to={'cars'}/>},
+            {path: 'cars', element: <CarsPage/>}
+        ]
+    }
 ]);
 
-export {router}
+export {
+    router
+}
